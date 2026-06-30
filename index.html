@@ -2073,7 +2073,7 @@
  : '';
 
  const dls = p.dls.map(d => `
- <a class="dl-link" href="${d.h}" download target="_blank" rel="noopener noreferrer">
+ <a class="dl-link" href="${d.h}" download rel="noopener noreferrer">
  <div class="dl-icon i-${d.t}">${ICONS[d.t]||'FILE'}</div>
  <div class="dl-meta"><span class="dl-name">${d.n}</span><span class="dl-desc">${d.d}</span></div>
  <svg class="dl-arr" width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M7 2v7M4 6l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
